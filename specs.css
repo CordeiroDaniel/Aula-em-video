@@ -1,0 +1,15 @@
+#contents {
+  width: 1000px;
+  margin: auto;
+}
+
+#frame-spec {
+  width: 380px;
+  height: 280px;
+  border: none;
+  overflow: hidden;
+}
+
+#frame-spec::-webkit-scrollbar {
+  display: none;
+}

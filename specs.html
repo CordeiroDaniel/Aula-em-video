@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="specs.css" />
+    <script src="main.js"></script>
+    <title>Google Glass</title>
+  </head>
+  <body>
+    <div id="interface">
+      <header id="home">
+        <hgroup>
+          <h1>Google Glass</h1>
+          <h2>A revolução do google está chegando</h2>
+        </hgroup>
+        <img
+          id="icon-glass"
+          src="../Aula-em-video/_imagens/especificacoes.png"
+          alt="Imagem 01"
+        />
+        <nav id="menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li
+              onmouseover="mudaFoto('../Aula-em-video/_imagens/home.png')"
+              onmouseout="mudaFoto('../Aula-em-video/_imagens/especificacoes.png')"
+            >
+              <a href="../Aula-em-video/home.html">Home</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('../Aula-em-video/_imagens/especificacoes.png')"
+              onmouseout="mudaFoto('../Aula-em-video/_imagens/especificacoes.png')"
+            >
+              <a href="../Aula-em-video/specs.html">Especificações</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('../Aula-em-video/_imagens/fotos.png')"
+              onmouseout="mudaFoto('../Aula-em-video/_imagens/especificacoes.png')"
+            >
+              <a href="../Aula-em-video/photos.html">Fotos</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('../Aula-em-video/_imagens/multimidia.png')"
+              onmouseout="mudaFoto('../Aula-em-video/_imagens/especificacoes.png')"
+            >
+              <a href="../Aula-em-video/multimidia.html">Multimídia</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('../Aula-em-video/_imagens/contato.png')"
+              onmouseout="mudaFoto('../Aula-em-video/_imagens/especificacoes.png')"
+            >
+              <a href="../Aula-em-video/fale-conosco.html">Fale Conosco</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="body-full">
+        <article id="main-news">
+          <header id="main-article">
+            <hgroup>
+              <h1>Raio-X no Google Glass</h1>
+              <h2>Por Daniel Schmidt Cordeiro</h2>
+              <h3>Glass > Especificações</h3>
+              <h3 class="right">Atualizado em 28 de fevereiro de 2022</h3>
+            </hgroup>
+          </header>
+          <p>
+            Clique em qualquer área destacada da imagem para ter mais
+            informações sobre os recursos do Google Glass. Qualquer ponto
+            vermelho vai te levar a um lugar cheio de novas informações.
+          </p>
+          <section id="contents">
+            <img
+              src="_imagens/glass-esquema-marcado.jpg"
+              alt="Área interativa óculos Google Glass"
+              usemap="my-map"
+            />
+            <map name="my-map">
+              <area
+                shape="rect"
+                coords="179,202,270,260"
+                href="google-glass.html#tela"
+                target="window"
+                alt="1"
+              />
+              <area
+                shape="circle"
+                coords="158,243, 12"
+                href="google-glass.html#camera"
+                target="window"
+                alt="2"
+              />
+              <area
+                shape="circle"
+                coords="73,52, 12"
+                href="google-glass.html#gadgets"
+                target="window"
+                alt="3"
+              />
+              <area
+                shape="poly"
+                coords="28,143,83,216,84,249,27,169"
+                href="google-glass.html#sensores"
+                target="window"
+                alt="4"
+              />
+            </map>
+            <iframe
+              src="google-glass.html"
+              name="window"
+              id="frame-spec"
+              frameborder="0"
+            ></iframe>
+          </section>
+        </article>
+      </section>
+      <footer id="footer">
+        <p>
+          Copyright &copy; 2022 - by Daniel Schmidt Cordeiro <br />
+          <a
+            href="https://www.facebook.com/danielschmidtcordeiro"
+            target="_blank"
+            >Facebook</a
+          >
+          |
+          <a href="https://www.instagram.com/daniels_cordeiro/" target="_blank"
+            >Instagram</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
